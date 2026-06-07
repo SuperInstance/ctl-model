@@ -1,0 +1,12 @@
+[package]
+name = "ctl-model"
+version = "0.1.0"
+edition = "2024"
+description = "Computation Tree Logic model checking on Kripke structures"
+license = "MIT"
+repository = "https://github.com/SuperInstance/ctl-model"
+keywords = ["ctl", "model-checking", "kripke", "verification", "formal-methods"]
+categories = ["science", "algorithms", "data-structures"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
